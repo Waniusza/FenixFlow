@@ -1,24 +1,40 @@
 App.config(function($stateProvider, $urlRouterProvider) {
   //
   // For any unmatched url, redirect to /state1
-  $urlRouterProvider.otherwise("/state1");
+  $urlRouterProvider.otherwise("/app/desc");
   //
   // Now set up the states
   $stateProvider
     .state('app', {
-      url: "/state1",
+      url: "/app",
       controller: 'AppController',
-      templateUrl: "components/state1.html"
+      templateUrl: "components/app.html"
     })
-    .state('app.list', {
-      url: "/list",
-      templateUrl: "components/state1.list.html",
+    .state('app.description', {
+      url: "/desc",
+      templateUrl: "components/description/description-view.html",
       controller: function($scope) {
         $scope.items = ["A", "List", "Of", "Items"];
       }
     })
-    .state('state2', {
-      url: "/state2",
-      templateUrl: "components/state2.html"
+    
+    .state('app.foto', {
+      url: "/desc",
+      templateUrl: "components/foto/foto-view.html"
+    })
+    
+    .state('app.contact', {
+      url: "/desc",
+      templateUrl: "components/contact/contact-view.html"
+    })
+    
+    .state('app.ofert', {
+      url: "/desc",
+      templateUrl: "components/ofert/ofert-view.html"
+    })
+    
+    .state('app.team', {
+      url: "/team",
+      templateUrl: "components/team/team-view.html"
     });
 });

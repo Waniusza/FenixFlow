@@ -1,0 +1,36 @@
+.app {
+    margin:0;
+    padding:0;
+    min-height:100%;
+    position:relative;
+}
+.box {
+    width:80%;
+    margin:0 auto;
+}
+.header {
+    height: 200PX;
+    background: url("/FenixFlow/assets/data/foto/header.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+
+.navbar-custom {
+    width: 100%;
+    margin: 0 0 0 0;
+    background-color: #000;
+}
+
+.footer{
+    background: black;
+    color: #337ab7;
+    width:100%;
+    height:auto;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.selected {
+    background-color: #ccc;
+}

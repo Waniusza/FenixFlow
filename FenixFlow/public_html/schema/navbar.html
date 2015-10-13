@@ -1,0 +1,11 @@
+<div >
+    <ul class="navbar-custom nav navbar-nav active">
+    <li ng-class="{selected: activeItem.includes[menuItem.sref] === true}"
+      ng-repeat="menuItem in menuItems">
+        
+        <a ui-sref="{{menuItem.sref}}" title="{{menuItem.title}}" ng-click="changeState($event)" >
+        {{menuItem.name}} 
+      </a>
+    </li>
+  </ul>
+</div>
