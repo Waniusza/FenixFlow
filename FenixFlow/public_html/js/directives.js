@@ -11,6 +11,15 @@ App.
                 controller: 'HeaderController'
             };
         })
+        .directive('viewTitle', function () {
+            return {
+                restrict: 'E',
+                templateUrl: 'schema/title.html',
+                scope: {
+                    text: "@"
+                }
+            };
+        })
         .directive('footer', function () {
             return {
                 templateUrl: 'schema/footer.html'
