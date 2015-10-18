@@ -1,24 +1,48 @@
-App.config(function($stateProvider, $urlRouterProvider) {
-  //
-  // For any unmatched url, redirect to /state1
-  $urlRouterProvider.otherwise("/state1");
-  //
-  // Now set up the states
-  $stateProvider
-    .state('app', {
-      url: "/state1",
-      controller: 'AppController',
-      templateUrl: "components/state1.html"
-    })
-    .state('app.list', {
-      url: "/list",
-      templateUrl: "components/state1.list.html",
-      controller: function($scope) {
-        $scope.items = ["A", "List", "Of", "Items"];
-      }
-    })
-    .state('state2', {
-      url: "/state2",
-      templateUrl: "components/state2.html"
-    });
+App.config(function ($stateProvider, $urlRouterProvider) {
+    //
+    // For any unmatched url, redirect to /state1
+    $urlRouterProvider.otherwise("/app/desc");
+    //
+    // Now set up the states
+    $stateProvider
+            .state('app', {
+                url: "/app",
+                controller: 'AppController',
+                templateUrl: "components/app.html"
+            })
+            .state('app.description', {
+                url: "/desc",
+                templateUrl: "components/description/description-view.html",
+                controller: "DescriptionController"
+            })
+
+            .state('app.foto', {
+                url: "/foto",
+                templateUrl: "components/foto/foto-view.html",
+                controller: function ($scope) {
+                    $scope.title = "Foto";
+                }
+            })
+
+            .state('app.contact', {
+                url: "/contact",
+                templateUrl: "components/contact/contact-view.html",
+                controller: function ($scope) {
+                    $scope.title = "Contact";
+                }
+            })
+
+            .state('app.ofert', {
+                url: "/ofert",
+                templateUrl: "components/ofert/ofert-view.html",
+                controller: function ($scope) {
+                    $scope.title = "Ofert";
+                }
+            })
+
+            .state('app.team', {
+                url: "/team",
+                templateUrl: "components/team/team-view.html",
+                controller: "TeamController"
+            });
 });

@@ -1,0 +1,70 @@
+body {
+}
+
+.app {
+    margin:0;
+    padding:0;
+    min-height:100%;
+    position:relative;
+    background-color: black;
+}
+.view {
+    margin:0 auto;
+    min-height: 100%;
+    background-color: #FF2500;
+}
+.box {
+    width:80%;
+    margin:0 auto;
+}
+.header {
+    height: 200PX;
+    background: url("/FenixFlow/assets/data/foto/header.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+
+.navbar-box {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.navbar-custom {
+    width:80%;
+    margin:0 auto;
+    background-color: #000;
+}
+
+.footer{
+    background-color: white;
+    color: #337ab7;
+    width:100%;
+    height:auto;
+    min-height: 100px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.selected {
+    background-color: #aaa;
+    color: #FFF !important;
+}
+
+.title {
+    margin-top: 15px; 
+    background: url("/FenixFlow/assets/data/foto/flame.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border: solid red;
+    width: 100%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: orange;
+    font-size: 125px;
+}

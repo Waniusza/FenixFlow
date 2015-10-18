@@ -1,0 +1,38 @@
+[
+    {
+        "firstName": "Janusz",
+        "lastName": "Sokołow",
+        "pseudo": "Wania",
+        "data": {
+            "fromDate": "Od zawsze",
+            "bornYear": 1994,
+            "staff": ["poi", "kij", "double", "wachlarze", "plucie", "połykanie ognia"],
+            "preferedStyle": "Realistyczna historia sceniczna",
+            "imageName": "wania_1.jpg"
+        }
+    }, {
+        "firstName": "Hubert",
+        "lastName": "Organiściak",
+        "pseudo": "Mojżesz",
+        "data": {
+            "fromDate": "Od zawsze",
+            "bornYear": 1993,
+            "staff": ["poi", "kij", "double"],
+            "preferedStyle": "Mroczne fantazy",
+            "imageName": "mojzesz_1.jpg"
+        }
+    }, {
+        "firstName": "Wiktoria",
+        "lastName": "Bashkili",
+        "pseudo": "Wika",
+        "data": {
+            "fromDate": 1433548800,
+            "bornYear": 1994,
+            "staff": ["poi", "wachlarze"],
+            "preferedStyle": "Ukranińska dusza",
+            "imageName": "team_1.jpg"
+        }
+    }
+
+
+]

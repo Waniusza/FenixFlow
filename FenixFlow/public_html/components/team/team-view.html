@@ -1,0 +1,17 @@
+
+<div class="view">
+    <view-title text="{{title}}"></view-title>
+    <div ng-repeat="person in teamData" class="col col-md-6">
+        <div class="table-responsive">
+            <table class="table">
+                <th colspan="2">
+                    {{person.firstName + " " + person.pseudo + " " + person.lastName}} 
+                </th>
+                <tr ng-repeat="(name, field) in person.data">
+                    <td> {{name}}</td>
+                    <td> {{field}} </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
