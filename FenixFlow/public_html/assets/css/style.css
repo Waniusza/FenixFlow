@@ -1,12 +1,11 @@
 body {
+    background-color: black;
 }
 
 .app {
     margin:0;
-    padding:0;
-    min-height:100%;
+    padding:0;  
     position:relative;
-    background-color: black;
 }
 .view {
     margin:0 auto;
@@ -14,7 +13,7 @@ body {
     background-color: #FF2500;
 }
 .box {
-    width:80%;
+    width:1000px;
     margin:0 auto;
 }
 .header {
@@ -67,4 +66,45 @@ body {
     font-family: "Times New Roman", Times, serif;
     color: orange;
     font-size: 125px;
+}
+
+.up {
+    margin-bottom: -250px;
+    width: 100%;
+    height: 0px;
+    border-style: inset;
+/*    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);*/
+}
+
+.up.left {
+    border-width: 250px 0 250px 1000px;
+    border-color: transparent transparent transparent orange;
+    float: left;
+    
+}
+
+.up.right {
+    border-width: 250px 1000px 250px 0;
+    border-color: transparent white transparent transparent;
+    float: right;
+}
+
+.up p {
+    
+    position: relative;
+    width: 800px;
+    height: 93px;
+    top: -125px;
+}
+.up.left p {
+    text-align: left;
+    left: -950px;
+}
+.up.right p {
+    text-align: right;
+    right: -150px;
 }

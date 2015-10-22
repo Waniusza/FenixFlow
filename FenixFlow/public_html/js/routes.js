@@ -23,26 +23,22 @@ App.config(function ($stateProvider, $urlRouterProvider) {
                     $scope.title = "Foto";
                 }
             })
-
-            .state('app.contact', {
-                url: "/contact",
-                templateUrl: "components/contact/contact-view.html",
-                controller: function ($scope) {
-                    $scope.title = "Contact";
-                }
-            })
-
             .state('app.ofert', {
                 url: "/ofert",
                 templateUrl: "components/ofert/ofert-view.html",
-                controller: function ($scope) {
-                    $scope.title = "Ofert";
-                }
+                controller: "OfertController"
             })
 
             .state('app.team', {
                 url: "/team",
                 templateUrl: "components/team/team-view.html",
                 controller: "TeamController"
+            })
+            .state('app.contact', {
+                url: "/contact",
+                templateUrl: "components/contact/contact-view.html",
+                controller: "ContactController"
             });
+
+
 });
