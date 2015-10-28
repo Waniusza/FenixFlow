@@ -1,2 +1,2 @@
 var App = 
-        angular.module('FenixFlow', ['ui.router']);
+        angular.module('FenixFlow', ['ui.router', 'fileSystem']);

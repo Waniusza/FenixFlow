@@ -19,9 +19,7 @@ App.config(function ($stateProvider, $urlRouterProvider) {
             .state('app.foto', {
                 url: "/foto",
                 templateUrl: "components/foto/foto-view.html",
-                controller: function ($scope) {
-                    $scope.title = "Foto";
-                }
+                controller: "FotoController"
             })
             .state('app.ofert', {
                 url: "/ofert",

@@ -1,4 +1,9 @@
 
 <div class="view">
     <view-title text="{{title}}"></view-title>
+
+    <fieldset ng-repeat="album in fotoData.albums" style="margin: 10px 10px 10px 10px">
+        <legend>{{album.title}}:</legend>
+        <a href="{{album.dest + foto.src}}" data-lightbox="a " ng-repeat="foto in album.fotos">Image #2</a>
+    </fieldset>
 </div>

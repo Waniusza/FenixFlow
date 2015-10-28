@@ -1,5 +1,4 @@
 App 
-        .controller('AppController', ['$scope', function() {
-                
+        .controller('AppController', ['$scope', '$http', function($scope, $http) {
                 
 }]);

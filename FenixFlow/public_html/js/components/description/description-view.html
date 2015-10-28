@@ -1,0 +1,11 @@
+
+<div class="view">
+    <view-title text="{{title}}"></view-title>
+    
+    <div ng-repeat="data in descData">
+        <h2 >{{data.title}}</h2>
+        <div ng-repeat="txt in data.text">
+            {{txt}}
+        </div>
+    </div>
+</div>

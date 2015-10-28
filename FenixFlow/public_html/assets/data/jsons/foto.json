@@ -1,0 +1,16 @@
+{
+    "albums": [{
+            "title": "Tytuł 1",
+            "dest": "/FenixFlow/assets/data/foto/team/",
+            "fotos": [{
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc" : "Drużyna"
+                }, {
+                    "src" : "wania_1.JPG",
+                    "desc" : "Wania"
+                }]
+        }]
+}
