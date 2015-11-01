@@ -2,13 +2,13 @@
     'use strict';
     App.controller('ContactController', ContactController);
 
-    ContactController.$inject = ['$scope', 'resourceService'];
+    ContactController.$inject = ['$scope', 'resourceService', 'APP_CONFIG'];
 
-    function ContactController($scope, resourceService) {
+    function ContactController($scope, resourceService, APP_CONFIG) {
 
         $scope.title = "Contact";
         $scope.contactData = {};
-        var dataSource = "/FenixFlow/assets/data/jsons/contact.json";
+        var dataSource = APP_CONFIG.FILE_PREFIX + "/assets/data/jsons/contact.json";
         (function init() {
             console.log("ContactController init");
             resourceService.getFileDate(dataSource).then(function (result) {

@@ -1,9 +1,14 @@
-
 <div class="view">
-    <view-title text="{{title}}"></view-title>
+    <view-title text="{{title}}" prefix='prefix'></view-title>
 
-    <fieldset ng-repeat="album in fotoData.albums" style="margin: 10px 10px 10px 10px">
-        <legend>{{album.title}}:</legend>
-        <a href="{{album.dest + foto.src}}" data-lightbox="a " ng-repeat="foto in album.fotos">Image #2</a>
-    </fieldset>
+    <!--<lightbox ng-if="fotoData.album !== undefined" images="fotoData.album"></lightbox>-->
+    <div ng-repeat="album in fotoData.albums" class="inside-view">
+        <h1 >{{album.title}}</h1>
+        <div style="text-align: center">
+            <a ng-repeat="foto in album.fotos" href="{{album.dest + foto.src}}" data-lightbox="{{album.title}}" data-title="{{foto.desc}}" >
+                <img class="example-image" src="{{album.dest + foto.src}}" height="250" alt=""/>
+            </a>
+        </div>
+    </div>    
+
 </div>

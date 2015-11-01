@@ -2,13 +2,13 @@
     'use strict';
     App.controller('OfertController', OfertController);
 
-    OfertController.$inject = ['$scope', 'resourceService'];
+    OfertController.$inject = ['$scope', 'resourceService', 'APP_CONFIG'];
 
-    function OfertController($scope, resourceService) {
+    function OfertController($scope, resourceService, APP_CONFIG) {
 
         $scope.title = "Oferta";
         $scope.ofertData = {};
-        var dataSource = "/FenixFlow/assets/data/jsons/ofert.json";
+        var dataSource = APP_CONFIG.FILE_PREFIX +"/assets/data/jsons/ofert.json";
         (function init() {
             console.log("OfertController init");
             resourceService.getFileDate(dataSource).then(function (result) {
