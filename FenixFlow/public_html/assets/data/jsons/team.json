@@ -3,39 +3,39 @@
         "lastName": "Sokołow",
         "pseudo": "Wania",
         "data": {
-            "fromDate": 1430438400,
-            "firstFire": 1418342400,
+            "fromDate": 1430438400000,
+            "firstFire": 1418342400000,
             "bornYear": 1994,
             "profession": "Developer",
             "staff": ["poi", "kij", "double", "wachlarze", "plucie", "połykanie ognia"],
             "preferedStyle": "Realistyczna historia sceniczna",
-            "imageName": "wania_1.JPG"
+            "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }, {
         "firstName": "Hubert",
         "lastName": "Organiściak",
         "pseudo": "Mojżesz",
         "data": {
-            "fromDate": 1430438400,
-            "firstFire": 1418342400,
+            "fromDate": 1430438400000,
+            "firstFire": 1418342400000,
             "bornYear": 1993,
             "profession": "Music",
             "staff": ["poi", "kij", "double"],
             "preferedStyle": "Mroczne fantazy",
-            "imageName": "mojzesz_1.jpg"
+            "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }, {
         "firstName": "Wiktoria",
         "lastName": "Bashkili",
         "pseudo": "Wika",
         "data": {
-            "fromDate": 1433548800,
-            "firstFire": 1434758400,
+            "fromDate": 1433548800000,
+            "firstFire": 1434758400000,
             "bornYear": 1994,
             "profession": " ",
             "staff": ["poi", "wachlarze"],
             "preferedStyle": "Ukranińska dusza",
-            "imageName": "team_1.jpg"
+            "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }
 

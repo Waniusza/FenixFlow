@@ -1,16 +1,62 @@
 {
     "albums": [{
             "title": "Tytuł 1",
-            "dest": "/FenixFlow/assets/data/foto/team/",
+            "dest": "/assets/data/foto/team/",
+            "fotos": [{
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                }, {
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                }, {
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                }, {
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                },{
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                },{
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                }]
+        }, {
+            "title": "Tytuł 2",
+            "dest": "/assets/data/foto/team/",
             "fotos": [{
                     "src": "mojzesz_1.jpg",
                     "desc": "Hubert Mojżesz Organiściak"
                 }, {
                     "src": "team_1.jpg",
-                    "desc" : "Drużyna"
+                    "desc": "Drużyna"
                 }, {
-                    "src" : "wania_1.JPG",
-                    "desc" : "Wania"
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
                 }]
+        }],
+    "album": [{
+            "src": "/assets/data/foto/team/mojzesz_1.jpg",
+            "header": "the data/info that should be displayed above the image",
+            "description": "the info to be displayed beside the image"
+        }, {
+            "src": "/assets/data/foto/team/team_1.jpg",
+            "header": "the data/info that should be displayed above the image",
+            "description": "the info to be displayed beside the image"
+        }, {
+            "src": "/assets/data/foto/team/wania_1.JPG",
+            "header": "the data/info that should be displayed above the image",
+            "description": "the info to be displayed beside the image"
         }]
 }
+
+

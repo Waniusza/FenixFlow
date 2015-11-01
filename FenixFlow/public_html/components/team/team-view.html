@@ -1,53 +1,82 @@
 
 <div class="view">
-    <view-title text="{{title}}"></view-title>
-    <div ng-repeat="person in teamData" class="col col-md-6 up" ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}">
-        <p>
-            Tekst tekst teskt
-        </p>
-<!--        <table>
-            <thead>
-            <th ng-if="$index % 2 === 1"></th>
-            <th>    
-                {{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
+    <view-title text="{{title}}" prefix='prefix'></view-title>
+    <div class="inside-view">
+        <div ng-repeat="person in teamData" class="col col-md-6 up" ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}" ng-init="ind = $index">
+            <h1>{{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
+            </h1>
+            <span>
+                W drużynie od: {{person.data.fromDate| date}}
+            </span>
+            <span>
+                Z ogniem za pan brat od: {{person.data.firstFire| date}}
+            </span>
 
-            </th>
-            <th ng-if="$index % 2 === 0" ></th>
-            </thead>
-            <tr>
-                <td>W drużynie od: </td>
-                <td>{{person.data.fromDate| date}}</td>
-            </tr>
+            <span>           
+                Wiek: {{person.data.bornYear}}
+            </span>
+            <span>Rekwizyty: 
+                <ul  ng-if="ind % 2 === 0" ng-repeat="staff in person.data.staff">
+                    <li>{{staff}}</li>
+                </ul>
+                <ul   ng-if="ind % 2 === 1" dir="RTL"  ng-repeat="staff in person.data.staff">
+                    <li>{{staff}}</li>
+                </ul>
+                <!--{{person.data.staff.join(", ")}}-->
+            </span>
+            <span>Zawód: {{person.data.profession}}
+            </span>
+            <span>Preferowany styl: {{person.data.preferedStyle}}
+            </span>
 
-            <tr>
-                <td>Z ogniem za pan brat od</td>
-                <td>{{person.data.firstFire| date}}</td>
-            </tr>
-            <tr>
-                <td>Wiek</td>
-                <td>{{person.data.bornYear}}</td>
-            </tr>
-            <tr>
-                <td>Rekwizyty</td>
-                <td>
-                    <ul ng-repeat="staff in person.data.staff">
-                        <li>{{staff}}</li>
-                    </ul>
-            </tr>
-            <tr>
-                <td>Zawód</td>
-                <td>{{person.data.profession}}</td>
-            </tr>     
-            <tr>
-                <td>Preferowany styl</td>
-                <td>{{person.data.preferedStyle}}</td>
-            </tr>      
-            <tr>
-                <td>Foto</td>
-                                    <td>
-                                        <img src="{{'/FenixFlow/assets/data/foto/team//' + person.data.imageName}}" width="100%"  alt=" {{'/assets/data/foto/team//' + person.imageName}}" />
-                                    </td>
-            </tr>    
-        </table>-->
-    
+            <img width="100" src="{{person.data.imageName}}"/>
+
+            <!--        <table  ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}"/>
+                        <thead>
+                        <th ng-if="$index % 2 === 1"></th>
+                        <th>    
+                            {{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
+            
+                        </th>
+                        <th ng-if="$index % 2 === 0" ></th>
+                        </thead>
+                        <tr>
+                            <td>W drużynie od: </td>
+                            <td>{{person.data.fromDate| date}}</td>
+                        </tr>
+            
+                        <tr>
+                            <td>Z ogniem za pan brat od</td>
+                            <td>{{person.data.firstFire| date}}</td>
+                        </tr>
+                        <tr>
+                            <td>Wiek</td>
+                            <td>{{person.data.bornYear}}</td>
+                        </tr>
+                        <tr>
+                            <td>Rekwizyty</td>
+                            <td>
+                                <ul ng-repeat="staff in person.data.staff">
+                                    <li>{{staff}}</li>
+                                </ul>
+                        </tr>
+                        <tr>
+                            <td>Zawód</td>
+                            <td>{{person.data.profession}}</td>
+                        </tr>     
+                        <tr>
+                            <td>Preferowany styl</td>
+                            <td>{{person.data.preferedStyle}}</td>
+                        </tr>      
+                        <tr>
+                            <td>Foto</td>
+                            <td>
+                                <img src="{{'/FenixFlow/assets/data/foto/team//' + person.data.imageName}}" width="100px"  alt=" {{'/assets/data/foto/team//' + person.imageName}}" />
+                            </td>
+                        </tr>    
+                    </table>-->
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
 </div>

@@ -16,7 +16,8 @@ App.
                 restrict: 'E',
                 templateUrl: 'schema/title.html',
                 scope: {
-                    text: "@"
+                    text: "@",
+                    prefix: "="
                 }
             };
         })
