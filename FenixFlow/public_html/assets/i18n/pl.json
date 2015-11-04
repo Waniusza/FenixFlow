@@ -1,0 +1,48 @@
+{
+    "name": "janusz",
+    "menu": {
+        "HOME": "Opis",
+        "FOTO": "Zdjęcia",
+        "CONTACT": "Kontakt",
+        "OFERT": "Oferta",
+        "TEAM": "Drużyna"
+    },
+    "description": {
+        "TITLE": "Opis"
+    },
+    "foto": {
+        "TITLE": "Zdjęcia"
+    },
+    "ofert": {
+        "TITLE": "Oferta"
+    },
+    "team": {
+        "TITLE": "Drużyna",
+        "TEAM_MEMBER" : "W drużynie od",
+        "FIRE_TIME" : "Z ogniem za pan brat od",
+        "AGE" : "Wiek",
+        "EQUIPMENT" : "Rekwizyty",
+        "PROFESSION": "Zawód",
+        "PREFERED_STYLE" : "Preferowany styl",
+        "equipm" : {
+            "POI" : "Poi",
+            "STAFF" : "Kij",
+            "TECH" : "Wachlarze",
+            "DOUBLE" : "Double",
+            "SPITTING" : "Zianie ogniem",
+            "SWALLOWING" : "Połykanie ognia"
+        }, 
+        "styles" : {
+            "REAL" : "Realistyczna historia sceniczna",
+            "DARK" : "Mroczne fantazy",
+            "UKRAINIAN": "Ukranińska dusza"
+        }
+    },
+    "contact": {
+        "TITLE": "Kontakt",
+        "PHONE": "Numer telefonu",
+        "E-MAIL": "E-mail",
+        "REGION": "Region działania",
+        "HOME": "Miasto rodzime"
+    }
+}

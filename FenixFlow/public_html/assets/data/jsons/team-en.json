@@ -9,7 +9,7 @@
             "bornYear": 1994,
             "profession": "Developer",
             "staff": ["POI", "STAFF", "TECH", "DOUBLE", "SPITTING", "SWALLOWING"],
-            "preferedStyle": "REAL",
+            "preferedStyle": "Realistyczna historia sceniczna",
             "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }, {
@@ -22,7 +22,7 @@
             "bornYear": 1993,
             "profession": "Music",
             "staff": ["POI", "STAFF", "DOUBLE"],
-            "preferedStyle": "DARK",
+            "preferedStyle": "Mroczne fantazy",
             "imageName": "/assets/data/foto/team/mojzesz_2.jpg"
         }
     }, {
@@ -35,7 +35,7 @@
             "bornYear": 1994,
             "profession": " ",
             "staff": ["POI", "TECH"],
-            "preferedStyle": "UKRAINIAN",
+            "preferedStyle": "Ukranińska dusza",
             "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }

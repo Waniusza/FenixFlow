@@ -1,0 +1,47 @@
+{
+    "menu": {
+        "HOME": "Description",
+        "FOTO": "Foto",
+        "CONTACT": "Contact",
+        "OFERT": "Ofert",
+        "TEAM": "Team"
+    },
+    "description": {
+        "TITLE": "Description"
+    },
+    "foto": {
+        "TITLE": "Foto"
+    },
+    "ofert": {
+        "TITLE": "Ofert"
+    },
+    "team": {
+        "TITLE": "Drużyna",
+        "TEAM_MEMBER" : "Team member from",
+        "FIRE_TIME" : "Firt fire experience",
+        "AGE" : "Age",
+        "EQUIPMENT" : "Equipments",
+        "PROFESSION": "Profession",
+        "PREFERED_STYLE" : "Prefered styl",
+        "equipm" : {
+            "POI" : "Poi",
+            "STAFF" : "Staff",
+            "TECH" : "Tech fans",
+            "DOUBLE" : "Double",
+            "SPITTING" : "Breezing",
+            "SWALLOWING" : "Swallowing"
+        }, 
+        "styles" : {
+            "REAL" : "Realistic story",
+            "DARK" : "Darkness",
+            "UKRAINIAN": "Ukrainian soul"
+        }
+    },
+    "contact": {
+        "TITLE": "Contact",
+        "PHONE": "Phone number",
+        "E-MAIL": "E-mail",
+        "REGION": "Activity area",
+        "HOME": "Home city"
+    }
+}

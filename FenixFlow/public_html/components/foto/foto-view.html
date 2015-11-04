@@ -1,14 +1,17 @@
 <div class="view">
-    <view-title text="{{title}}" prefix='prefix'></view-title>
+    <view-title text="foto.TITLE" prefix='prefix'></view-title>
 
     <!--<lightbox ng-if="fotoData.album !== undefined" images="fotoData.album"></lightbox>-->
     <div ng-repeat="album in fotoData.albums" class="inside-view">
-        <h1 >{{album.title}}</h1>
-        <div style="text-align: center">
+        <h1  class="page-header">{{album.title}}</h1>
+        <div style="text-align: center" ng-if="album.movie === false">
             <a ng-repeat="foto in album.fotos" href="{{album.dest + foto.src}}" data-lightbox="{{album.title}}" data-title="{{foto.desc}}" >
                 <img class="example-image" src="{{album.dest + foto.src}}" height="250" alt=""/>
             </a>
         </div>
+        <div class="text-center" ng-if="album.movie === true">
+            <youtube-video video-id="album.dest" player-width="'600px'" player-height="'400px'"></youtube-video>
+        </div
     </div>    
 
 </div>

@@ -1,82 +1,33 @@
-
 <div class="view">
-    <view-title text="{{title}}" prefix='prefix'></view-title>
+    <view-title text="team.TITLE" prefix='prefix'></view-title>
     <div class="inside-view">
-        <div ng-repeat="person in teamData" class="col col-md-6 up" ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}" ng-init="ind = $index">
-            <h1>{{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
-            </h1>
-            <span>
-                W drużynie od: {{person.data.fromDate| date}}
-            </span>
-            <span>
-                Z ogniem za pan brat od: {{person.data.firstFire| date}}
-            </span>
+        <div ng-repeat="person in teamData" class="col col-md-12"  ng-init="ind = $index">
+            <div class="up" ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}">
 
-            <span>           
-                Wiek: {{person.data.bornYear}}
-            </span>
-            <span>Rekwizyty: 
-                <ul  ng-if="ind % 2 === 0" ng-repeat="staff in person.data.staff">
-                    <li>{{staff}}</li>
-                </ul>
-                <ul   ng-if="ind % 2 === 1" dir="RTL"  ng-repeat="staff in person.data.staff">
-                    <li>{{staff}}</li>
-                </ul>
-                <!--{{person.data.staff.join(", ")}}-->
-            </span>
-            <span>Zawód: {{person.data.profession}}
-            </span>
-            <span>Preferowany styl: {{person.data.preferedStyle}}
-            </span>
+                <h1  class="page-header">{{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
+                </h1>
+                <span><img width="100" src="{{person.data.imageName}}"/></span>
+                <span>
+                    {{'team.TEAM_MEMBER' | translate}} : {{person.data.fromDate| date}}
+                </span>
+                <span>
+                    {{'team.FIRE_TIME' | translate}} : {{person.data.firstFire| date}}
+                </span>
 
-            <img width="100" src="{{person.data.imageName}}"/>
-
-            <!--        <table  ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}"/>
-                        <thead>
-                        <th ng-if="$index % 2 === 1"></th>
-                        <th>    
-                            {{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
-            
-                        </th>
-                        <th ng-if="$index % 2 === 0" ></th>
-                        </thead>
-                        <tr>
-                            <td>W drużynie od: </td>
-                            <td>{{person.data.fromDate| date}}</td>
-                        </tr>
-            
-                        <tr>
-                            <td>Z ogniem za pan brat od</td>
-                            <td>{{person.data.firstFire| date}}</td>
-                        </tr>
-                        <tr>
-                            <td>Wiek</td>
-                            <td>{{person.data.bornYear}}</td>
-                        </tr>
-                        <tr>
-                            <td>Rekwizyty</td>
-                            <td>
-                                <ul ng-repeat="staff in person.data.staff">
-                                    <li>{{staff}}</li>
-                                </ul>
-                        </tr>
-                        <tr>
-                            <td>Zawód</td>
-                            <td>{{person.data.profession}}</td>
-                        </tr>     
-                        <tr>
-                            <td>Preferowany styl</td>
-                            <td>{{person.data.preferedStyle}}</td>
-                        </tr>      
-                        <tr>
-                            <td>Foto</td>
-                            <td>
-                                <img src="{{'/FenixFlow/assets/data/foto/team//' + person.data.imageName}}" width="100px"  alt=" {{'/assets/data/foto/team//' + person.imageName}}" />
-                            </td>
-                        </tr>    
-                    </table>-->
+                <span>           
+                    {{'team.AGE' | translate}} : {{person.data.bornYear}}
+                </span>
+                <span>{{'team.EQUIPMENT' | translate}} :  
+                    <ul dir="{{ind % 2 === 0 ? 'ltr' : 'rtl'}}"   ng-repeat="staff in person.data.staff">
+                        <li>{{'team.equipm.' + staff | translate}}</li>
+                    </ul>
+                </span>
+                <span>{{'team.PROFESSION' | translate}} : {{person.data.profession}}
+                </span>
+                <span>{{'team.PREFERED_STYLE' | translate}} : {{'team.styles.' +person.data.preferedStyle | translate}}
+                </span>
+            </div>
         </div>
+        <div style="min-height: 200px; opacity: 0"> div dla poprawienia styli - WRONG PROGGRAMING STYLE</div>
     </div>
-    <div class="clearfix"></div>
-
 </div>

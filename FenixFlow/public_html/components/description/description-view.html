@@ -1,8 +1,8 @@
 <div class="view">
-    <view-title text="{{title}}" prefix='prefix'></view-title>
-    
+    <view-title text="description.TITLE" prefix='prefix'></view-title>
+        
     <div ng-repeat="data in descData" class="inside-view">
-            <h1 class="page-header">{{data.title}}</h1>
+            <h1 class="page-header" >{{data.title}}</h1>
             <div ng-repeat="txt in data.text">
                 {{txt}}
             </div>

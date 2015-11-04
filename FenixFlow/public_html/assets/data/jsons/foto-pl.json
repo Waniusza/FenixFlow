@@ -1,0 +1,55 @@
+{
+    "albums": [{
+            "movie": false,
+            "title": "Tytuł 2",
+            "dest": "/assets/data/foto/team/",
+            "fotos": [{
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                }, {
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                }]
+        }, {
+            "movie": true,
+            "title": "Pokaz weselny",
+            "dest": "ABdFE29vMXM"
+        }, {
+            "movie": false,
+            "title": "Tytuł 1",
+            "dest": "/assets/data/foto/team/",
+            "fotos": [{
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                }, {
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                }, {
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                }, {
+                    "src": "wania_1.JPG",
+                    "desc": "Wania"
+                }, {
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                }, {
+                    "src": "mojzesz_1.jpg",
+                    "desc": "Hubert Mojżesz Organiściak"
+                }, {
+                    "src": "team_1.jpg",
+                    "desc": "Drużyna"
+                }]
+        }]
+}
+
+

@@ -1,28 +1,28 @@
 [
     {
-        "firstName": "Janusz",
-        "lastName": "Sokołow",
-        "pseudo": "Wania",
+        "firstName": "Януш",
+        "lastName": "Соколов",
+        "pseudo": "Ваня",
         "data": {
             "fromDate": 1430438400000,
             "firstFire": 1418342400000,
             "bornYear": 1994,
             "profession": "Developer",
-            "staff": ["POI", "STAFF", "TECH", "DOUBLE", "SPITTING", "SWALLOWING"],
-            "preferedStyle": "REAL",
+            "staff": ["пои", "стафф", "double", "беера", "бризинее", "съеданее огня"],
+            "preferedStyle": "Реалистичное представльение",
             "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }, {
-        "firstName": "Hubert",
-        "lastName": "Organiściak",
-        "pseudo": "Mojżesz",
+        "firstName": "Хуберт",
+        "lastName": "Органистьяк",
+        "pseudo": "Мойжеш",
         "data": {
             "fromDate": 1430438400000,
             "firstFire": 1418342400000,
             "bornYear": 1993,
-            "profession": "Music",
-            "staff": ["POI", "STAFF", "DOUBLE"],
-            "preferedStyle": "DARK",
+            "profession": "Музик",
+            "staff": ["пои", "стафф", "double"],
+            "preferedStyle": "Тёмные фантазы",
             "imageName": "/assets/data/foto/team/mojzesz_2.jpg"
         }
     }, {
@@ -34,8 +34,8 @@
             "firstFire": 1434758400000,
             "bornYear": 1994,
             "profession": " ",
-            "staff": ["POI", "TECH"],
-            "preferedStyle": "UKRAINIAN",
+            "staff": ["пои", "беера"],
+            "preferedStyle": "Украинская душа",
             "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
     }

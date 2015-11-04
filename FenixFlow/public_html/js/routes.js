@@ -15,18 +15,16 @@ App.config(function ($stateProvider, $urlRouterProvider) {
                 templateUrl: "components/description/description-view.html",
                 controller: "DescriptionController"
             })
-
             .state('app.foto', {
                 url: "/foto",
                 templateUrl: "components/foto/foto-view.html",
                 controller: "FotoController"
             })
-            .state('app.ofert', {
-                url: "/ofert",
-                templateUrl: "components/ofert/ofert-view.html",
-                controller: "OfertController"
-            })
-
+//            .state('app.ofert', {
+//                url: "/ofert",
+//                templateUrl: "components/ofert/ofert-view.html",
+//                controller: "OfertController"
+//            })
             .state('app.team', {
                 url: "/team",
                 templateUrl: "components/team/team-view.html",
@@ -37,6 +35,4 @@ App.config(function ($stateProvider, $urlRouterProvider) {
                 templateUrl: "components/contact/contact-view.html",
                 controller: "ContactController"
             });
-
-
 });

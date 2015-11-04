@@ -1,11 +1,17 @@
 <span class="navbar-box">
-    <ul class="navbar-custom  nav navbar-nav active">
-        <li ng-repeat="menuItem in menuItems">
-
-            <a class="btn btn-lg"  ng-class="{'btn-primary': activeItem.includes[menuItem.sref] === true}" ng-click="changeState()"
-               ui-sref="{{menuItem.sref}}" title="{{menuItem.title}}">
-                {{menuItem.name}} 
+    <div class="navbar-custom">
+        <ul class="  nav navbar-nav active">
+            <li ng-repeat="menuItem in menuItems">
+                <a class="btn btn-lg"  ng-class="{'btn-warning': activeItem.includes[menuItem.sref] === true}" ng-click="changeState()"
+                   ui-sref="{{menuItem.sref}}" title="{{menuItem.title}}">
+                    {{menuItem.name| translate}} 
+                </a>
+            </li>
+        </ul>
+        <span style="float: right; padding-top: 7px">
+            <a href="#" ng-click="changeLanguage(lang)" ng-repeat="lang in languagesAvailable">
+                <img src="{{lang.src}}" height="25" width="40"/>
             </a>
-        </li>
-    </ul>
+        </span>
+    </div>
 </span>

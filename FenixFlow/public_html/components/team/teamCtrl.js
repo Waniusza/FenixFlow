@@ -8,10 +8,10 @@
 
         $scope.title = "Team";
         $scope.teamData = {};
-        var dataSource = APP_CONFIG.FILE_PREFIX + "/assets/data/jsons/team.json";
+        var dataSource = APP_CONFIG.FILE_PREFIX + "/assets/data/jsons/team";
         (function init() {
             console.log("TeamController init");
-            resourceService.getFileDate(dataSource).then(function (result) {
+            resourceService.getFileDate(dataSource, "json").then(function (result) {
                 angular.forEach(result, function (person) {
                     person.data.imageName = APP_CONFIG.FILE_PREFIX + person.data.imageName;
                 });

@@ -1,0 +1,48 @@
+{
+    "menu": {
+        "HOME": "Описание",
+        "FOTO": "Картины",
+        "CONTACT": "Контакт",
+        "OFERT": "Оферта",
+        "TEAM": "Команда"
+    },
+    "description": {
+        "TITLE": "Описание"
+    },
+    "foto": {
+        "TITLE": "Картины"
+    },
+    "ofert": {
+        "TITLE": "Оферта"
+    },
+    "team": {
+        "TITLE": "Команда",
+        "TEAM_MEMBER": "Team member from",
+        "FIRE_TIME": "Firt fire experience",
+        "AGE": "Age",
+        "EQUIPMENT": "Equipments",
+        "PROFESSION": "Profession",
+        "PREFERED_STYLE": "Prefered styl",
+        "equipm": {
+            "POI": "Пои",
+            "STAFF": "Стафф",
+            "TECH": "TВеера",
+            "DOUBLE": "Double",
+            "SPITTING": "Бризинее",
+            "SWALLOWING": "Глатанее огня"
+        },
+        "styles": {
+            "REAL": "Реалистичное представльение",
+            "DARK": "Тёмные фантазы",
+            "UKRAINIAN": "Украинская душа"
+        }
+    },
+    "contact": {
+        "TITLE": "Контакт",
+        "PHONE": "Номер тельефона",
+        "E-MAIL": "E-mail",
+        "REGION": "Рейон деятельности",
+        "HOME": "Город родной"
+    }
+}
+

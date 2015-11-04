@@ -1,6 +1,11 @@
-{
+    {
     "albums": [{
-            "title": "Tytuł 1",
+            "movie": true,
+            "title": "Шоу на свадьбе",
+            "dest": "ABdFE29vMXM"
+        }, {
+            "movie" : false,
+            "title": "Заглавие 1",
             "dest": "/assets/data/foto/team/",
             "fotos": [{
                     "src": "wania_1.JPG",
@@ -31,7 +36,8 @@
                     "desc": "Drużyna"
                 }]
         }, {
-            "title": "Tytuł 2",
+            "movie" : false,
+            "title": "Заглавие 2",
             "dest": "/assets/data/foto/team/",
             "fotos": [{
                     "src": "mojzesz_1.jpg",

@@ -1,0 +1,14 @@
+[
+    {
+        "src" : "assets/data/foto/countries/pl.jpg",
+        "code" : "pl"
+    },
+    {
+        "src" : "assets/data/foto/countries/gb.png",
+        "code" : "en"
+    },
+    {
+        "src" : "assets/data/foto/countries/ru.jpg",
+        "code" : "ru"
+    }
+]
