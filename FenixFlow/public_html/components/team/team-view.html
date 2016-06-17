@@ -1,33 +1,11 @@
 <div class="view">
-    <view-title text="team.TITLE" prefix='prefix'></view-title>
+    <view-title text="team.TITLE" prefix="prefix" ></view-title>
     <div class="inside-view">
-        <div ng-repeat="person in teamData" class="col col-md-12"  ng-init="ind = $index">
-            <div class="up" ng-class="{'left' : $index % 2 === 0, 'right' : $index % 2 === 1}">
-
-                <h1  class="page-header">{{person.firstName + " \"" + person.pseudo + "\" " + person.lastName}} 
-                </h1>
-                <span><img width="100" src="{{person.data.imageName}}"/></span>
-                <span>
-                    {{'team.TEAM_MEMBER' | translate}} : {{person.data.fromDate| date}}
-                </span>
-                <span>
-                    {{'team.FIRE_TIME' | translate}} : {{person.data.firstFire| date}}
-                </span>
-
-                <span>           
-                    {{'team.AGE' | translate}} : {{person.data.bornYear}}
-                </span>
-                <span>{{'team.EQUIPMENT' | translate}} :  
-                    <ul dir="{{ind % 2 === 0 ? 'ltr' : 'rtl'}}"   ng-repeat="staff in person.data.staff">
-                        <li>{{'team.equipm.' + staff | translate}}</li>
-                    </ul>
-                </span>
-                <span>{{'team.PROFESSION' | translate}} : {{person.data.profession}}
-                </span>
-                <span>{{'team.PREFERED_STYLE' | translate}} : {{'team.styles.' +person.data.preferedStyle | translate}}
-                </span>
-            </div>
+        <div class="work-space">
+            <team-member ng-repeat="person in teamData" person="person"  ng-if="person.active != false"
+                         ng-click="setActiveElement(person.id)" class="slider hide">
+            </team-member>
+            <div class="clearfix"></div>
         </div>
-        <div style="min-height: 200px; opacity: 0"> div dla poprawienia styli - WRONG PROGGRAMING STYLE</div>
     </div>
 </div>

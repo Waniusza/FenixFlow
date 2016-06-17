@@ -1,5 +1,5 @@
 var App =
-        angular.module('FenixFlow', ['ui.router', 'pascalprecht.translate', 'youtube-embed'])
+        angular.module('FenixFlow', ['ui.router', 'ui.bootstrap', 'pascalprecht.translate', 'youtube-embed'])
 
         .config(['$translateProvider', function ($translateProvider) {
                 $translateProvider.preferredLanguage('pl');

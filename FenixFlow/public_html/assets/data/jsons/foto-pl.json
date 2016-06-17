@@ -1,53 +1,158 @@
 {
     "albums": [{
             "movie": false,
-            "title": "Tytuł 2",
-            "dest": "/assets/data/foto/team/",
+            "show" : true,
+            "title": "Pokaz na weselu Justyny",
+            "dest": "/assets/data/foto/albums/weseleJustyny/",
             "fotos": [{
-                    "src": "mojzesz_1.jpg",
-                    "desc": "Hubert Mojżesz Organiściak"
+                    "src": "Justyna - HD (780).jpg",
+                    "desc": "..."
                 }, {
-                    "src": "team_1.jpg",
-                    "desc": "Drużyna"
+                    "src": "Justyna - HD (781).jpg",
+                    "desc": "..."
                 }, {
-                    "src": "wania_1.JPG",
-                    "desc": "Wania"
-                }]
+                    "src": "Justyna - HD (782).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (783).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (784).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (785).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (786).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (787).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (788).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (789).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (790).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (791).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (792).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (793).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (794).jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Justyna - HD (795).jpg",
+                    "desc": "..."
+                }
+            ]
         }, {
             "movie": true,
+            "show" : true,
             "title": "Pokaz weselny",
             "dest": "ABdFE29vMXM"
         }, {
             "movie": false,
-            "title": "Tytuł 1",
-            "dest": "/assets/data/foto/team/",
+            "show" : false,
+            "title": "Pokaz urodzinowy",
+            "dest": "/assets/data/foto/albums/urodzinyMojzesza/",
             "fotos": [{
-                    "src": "wania_1.JPG",
-                    "desc": "Wania"
+                    "src": "1.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "mojzesz_1.jpg",
-                    "desc": "Hubert Mojżesz Organiściak"
+                    "src": "2.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "team_1.jpg",
-                    "desc": "Drużyna"
+                    "src": "3.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "wania_1.JPG",
-                    "desc": "Wania"
+                    "src": "4.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "wania_1.JPG",
-                    "desc": "Wania"
+                    "src": "5.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "mojzesz_1.jpg",
-                    "desc": "Hubert Mojżesz Organiściak"
+                    "src": "6.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "team_1.jpg",
-                    "desc": "Drużyna"
+                    "src": "7.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "mojzesz_1.jpg",
-                    "desc": "Hubert Mojżesz Organiściak"
+                    "src": "8.jpg",
+                    "desc": "..."
+                }]
+        }, {
+            "movie": false,
+            "show" : true,
+            "title": "Wania w Sopocie",
+            "dest": "/assets/data/foto/albums/sopotWania/",
+            "fotos": [{
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-1.jpg",
+                    "desc": "..."
                 }, {
-                    "src": "team_1.jpg",
-                    "desc": "Drużyna"
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-2.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-4.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-5.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-7.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-8.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-9.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-10.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-12.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-13.jpg",
+                    "desc": "..."
+                }, {
+                    "src": "Phoenix Flow Sopot 9.08.2015 fot. Andrzej Drelich-15.jpg",
+                    "desc": "..."
+                }]
+        }, {
+            "movie": false,
+            "title": "Sopot",
+            "dest": "/assets/data/foto/albums/sopot/",
+            "fotos": [{
+                    "src": "1.JPG",
+                    "desc": "..."
+                }, {
+                    "src": "2.JPG",
+                    "desc": "..."
+                }, {
+                    "src": "3.JPG",
+                    "desc": "..."
+                }, {
+                    "src": "4.JPG",
+                    "desc": "..."
+                }, {
+                    "src": "5.JPG",
+                    "desc": "..."
+                }, {
+                    "src": "6.JPG",
+                    "desc": "..."
+                }, {
+                    "src": "7.JPG",
+                    "desc": "..."
                 }]
         }]
 }

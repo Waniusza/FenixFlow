@@ -2,16 +2,20 @@
     <view-title text="foto.TITLE" prefix='prefix'></view-title>
 
     <!--<lightbox ng-if="fotoData.album !== undefined" images="fotoData.album"></lightbox>-->
-    <div ng-repeat="album in fotoData.albums" class="inside-view">
-        <h1  class="page-header">{{album.title}}</h1>
-        <div style="text-align: center" ng-if="album.movie === false">
-            <a ng-repeat="foto in album.fotos" href="{{album.dest + foto.src}}" data-lightbox="{{album.title}}" data-title="{{foto.desc}}" >
-                <img class="example-image" src="{{album.dest + foto.src}}" height="250" alt=""/>
-            </a>
-        </div>
-        <div class="text-center" ng-if="album.movie === true">
-            <youtube-video video-id="album.dest" player-width="'600px'" player-height="'400px'"></youtube-video>
-        </div
-    </div>    
 
+    <div class="inside-view">
+        <div ng-repeat="album in fotoData.albums"  class="col col-md-12" ng-if="album.show">
+            <h1  class="page-header"  style="color:#C76E1E">{{album.title}}</h1>
+            <div class="img_wrapper col col-md-12" style="text-align: center" ng-if="album.movie === false">
+                <span ng-repeat="foto in album.fotos">
+                    <a  href="{{album.dest + foto.src}}" data-lightbox="{{album.title}}" data-title="{{foto.desc}}" >
+                        <img  ng-src="{{album.dest + foto.mini}}" class="mediaImage" height="250" alt="" img-load/>
+                    </a>
+                </span>
+            </div>
+            <div class="text-center" ng-if="album.movie === true">
+                <youtube-video video-id="album.dest" player-width="'600px'" player-height="'400px'"></youtube-video>
+            </div>
+        </div>
+    </div>    
 </div>

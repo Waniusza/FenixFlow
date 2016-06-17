@@ -1,13 +1,19 @@
 <div class="view">
     <view-title text="contact.TITLE" prefix='prefix'></view-title>
-    <div class="inside-view col col-md-6">
-        <table class="table table-responsive">
-            <tbody style="padding-left: 21px">
-                <tr ng-repeat="(key, value) in contactData">
-                    <td> {{"contact." + key | translate}}</td>
-                    <td>{{value}}</td>
-                </tr>
-            </tbody>
-        </table>
+
+    <div class="inside-view">
+        <div class="col col-md-6" >
+            
+            <h1  class="page-header"  style="color:#C76E1E">{{data}}</h1>
+         
+            <table class="table table-responsive">
+                <tbody style="padding-left: 21px">
+                    <tr ng-repeat="(key, value) in contactData">
+                        <td> {{"contact." + key| translate}}</td>
+                        <td>{{value}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>

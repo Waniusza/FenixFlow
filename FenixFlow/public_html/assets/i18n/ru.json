@@ -17,29 +17,34 @@
     },
     "team": {
         "TITLE": "Команда",
-        "TEAM_MEMBER": "Team member from",
-        "FIRE_TIME": "Firt fire experience",
-        "AGE": "Age",
-        "EQUIPMENT": "Equipments",
-        "PROFESSION": "Profession",
-        "PREFERED_STYLE": "Prefered styl",
+        "TEAM_MEMBER": "В команде с",
+        "FIRE_TIME": "Первой опыт с огнём",
+        "AGE": "Возрост",
+        "EQUIPMENT": "Реквизиты",
+        "PROFESSION": "Профессия",
+        "PREFERED_STYLE": "Любимой стиль",
         "equipm": {
             "POI": "Пои",
             "STAFF": "Стафф",
-            "TECH": "TВеера",
-            "DOUBLE": "Double",
+            "TECH": "Веера",
+            "DOUBLE": "Дабли",
             "SPITTING": "Бризинее",
             "SWALLOWING": "Глатанее огня"
         },
         "styles": {
             "REAL": "Реалистичное представльение",
             "DARK": "Тёмные фантазы",
-            "UKRAINIAN": "Украинская душа"
+            "UKRAINIAN": "Украинская душа",
+            "DANCING" : "Сумасшедшей танцует",
+            "DANCING_FIRST" :"Главное это танец",
+            "FIIIRE" : "Огняааааааа!!!",
+            "MIX" : "Взрывоопасная смесь"
         }
     },
     "contact": {
         "TITLE": "Контакт",
         "PHONE": "Номер тельефона",
+        "DATA" : "Контактная информация",
         "E-MAIL": "E-mail",
         "REGION": "Рейон деятельности",
         "HOME": "Город родной"

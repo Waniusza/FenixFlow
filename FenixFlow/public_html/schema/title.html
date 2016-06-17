@@ -1,5 +1,8 @@
-<div class="title bg-title">
-    
-     <!--background:  url({{prefix + '/assets/data/foto/flame.jpg'}}),  url({{prefix + '/assets/data/foto/header.jpg'}});-->
-    <span> {{text | translate}} </span>
+<div class="title bg-title header-color text-center" style="width: 80%">
+    <!--{{text   | translate}}-->
+    <img src="{{firstImageSrc.src}}" ng-style="firstImageSrc.style" alt="{{firstImageSrc.alt}}" class="first-letter" style="border: none;" img-load/>
+    <h1 class="title-text Gradient-horizontal" >  {{shiftedText}}  </h1>
+</div>
+<div class="pull-right" style="width: 20%; margin-bottom: -60px;">
+        <img class="title-img pull-right" ng-src="{{logoDest}}" alt="Logo" img-load sty/>
 </div>

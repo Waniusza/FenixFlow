@@ -11,7 +11,7 @@
         "TITLE": "Opis"
     },
     "foto": {
-        "TITLE": "Zdjęcia"
+        "TITLE": "Media"
     },
     "ofert": {
         "TITLE": "Oferta"
@@ -35,11 +35,17 @@
         "styles" : {
             "REAL" : "Realistyczna historia sceniczna",
             "DARK" : "Mroczne fantazy",
-            "UKRAINIAN": "Ukranińska dusza"
+            "UKRAINIAN": "Ukranińska dusza",
+            "MIX" : "Mieszanka wybuchowa",
+            "DANCING" : "Roztańczony wariat",
+            "FIIIRE" : "Ooooogniaaa!!",
+            "FIIIRE" : "Ooooogniaaa!!",
+            "DANCING_FIRST" :"Taniec przede wszystkim"
         }
     },
     "contact": {
         "TITLE": "Kontakt",
+        "DATA" : "Dane kontaktowe",
         "PHONE": "Numer telefonu",
         "E-MAIL": "E-mail",
         "REGION": "Region działania",

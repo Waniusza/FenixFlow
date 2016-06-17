@@ -6,11 +6,23 @@
         "data": {
             "fromDate": 1430438400000,
             "firstFire": 1418342400000,
-            "bornYear": 1994,
+            "bornYear": 759628800000,
             "profession": "Developer",
             "staff": ["POI", "STAFF", "TECH", "DOUBLE", "SPITTING", "SWALLOWING"],
             "preferedStyle": "REAL",
             "imageName": "/assets/data/foto/team/wania_1.JPG"
+        }
+    }, {
+        "firstName": "Marta",
+        "lastName": "Kotewicz",
+        "pseudo": "Bejbe",
+        "data": {
+            "fromDate": 1448496000000,
+            "firstFire": 1215907200000,
+            "bornYear": 836092800000,
+            "staff": ["TECH", "POI", "SPITTING", "SWALLOWING"],
+            "preferedStyle": "FIIIRE",
+            "imageName": "/assets/data/foto/team/Marta_foto.jpg"
         }
     }, {
         "firstName": "Hubert",
@@ -19,26 +31,62 @@
         "data": {
             "fromDate": 1430438400000,
             "firstFire": 1418342400000,
-            "bornYear": 1993,
             "profession": "Music",
-            "staff": ["POI", "STAFF", "DOUBLE"],
+            "staff": ["POI", "STAFF"],
             "preferedStyle": "DARK",
             "imageName": "/assets/data/foto/team/mojzesz_2.jpg"
         }
     }, {
+        "active": false,
         "firstName": "Wiktoria",
-        "lastName": "Bashkili",
-        "pseudo": "Wika",
+        "lastName": "Bashlii",
+        "pseudo": "Wikki",
         "data": {
             "fromDate": 1433548800000,
-            "firstFire": 1434758400000,
-            "bornYear": 1994,
+            "firstFire": 1416009600000,
+            "bornYear": 1426377600000,
             "profession": " ",
             "staff": ["POI", "TECH"],
             "preferedStyle": "UKRAINIAN",
             "imageName": "/assets/data/foto/team/wania_1.JPG"
         }
+    }, {
+        "firstName": "Bartek",
+        "lastName": "Deja",
+        "pseudo": "Rychu",
+        "data": {
+            "fromDate": 1433548800000,
+            "firstFire": 1434067200000,
+            "bornYear": 817948800000,
+            "profession": "Student informatyk",
+            "staff": ["STAFF", "DOUBLE", "POI"],
+            "imageName": "/assets/data/foto/team/wania_1.JPG"
+        }
+    }, {
+        "firstName": "Kaja",
+        "lastName": "Sosnowska",
+        "pseudo": "Czarna",
+        "data": {
+            "fromDate": 1443657600000,
+            "firstFire": 1443916800000,
+            "bornYear": 728697600000,
+            "profession": "Inżynier",
+            "staff": ["TECH", "POI"],
+            "preferedStyle": "MIX",
+            "imageName": "/assets/data/foto/team/wania_1.JPG"
+        }
+    }, {
+        "firstName": "Ania",
+        "lastName": "Prabucka",
+        "pseudo": "Ania",
+        "data": {
+            "fromDate": 1443657600000,
+            "firstFire": 1443916800000,
+            "bornYear": 745286400000,
+            "profession": "Inżynier",
+            "staff": ["TECH", "POI"],
+            "preferedStyle": "DANCING_FIRST",
+            "imageName": "/assets/data/foto/team/wania_1.JPG"
+        }
     }
-
-
 ]
